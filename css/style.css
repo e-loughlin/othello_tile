@@ -8,7 +8,7 @@ body {
     letter-spacing: 2px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #868F9B;
+    color: #4f4f4f;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
-    color: #10161A;
+    color: #4f4f4f;
 }
 
 h1 {
@@ -309,11 +309,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         padding: 15px 0px;
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
-        color: black;
+        color: 4f4f4f;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #c7e07b;
+        color: black;
     }
     .main-nav>li>a:after {
         content: "";
@@ -582,11 +582,11 @@ header {
 }
 
 .header-wrapper .breadcrumb .breadcrumb-item.active {
-    color: #868F9B;
+    color: #4f4f4f;
 }
 
 .breadcrumb>li+li:before {
-    color: #868F9B;
+    color: #4f4f4f;
 }
 
 
@@ -798,7 +798,7 @@ header {
 }
 
 .service:hover h3 {
-    color: black;
+    color: #4f4f4f;
 }
 
 /*------------------------------------*\
@@ -1228,7 +1228,7 @@ header {
     font-size: 12px;
     margin-left: 20px;
     font-weight: 400;
-    color: #868F9B;
+    color: #4f4f4f;
 }
 
 .blog-comments .media .media-body .media-heading .reply {
@@ -1628,7 +1628,8 @@ header {
   	text-align: center;
   	background: #c7e07b;
   	border-radius:3px;
-  	color: #FFF;
+  	color: #4f4f4f;
+    font-size: 3em;
   	z-index: 9999;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;

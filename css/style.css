@@ -114,7 +114,7 @@ ul, ol {
 }
 
 .bg-dark {
-    background-color: #1C1D21;
+    background-color: #afafaf;
 }
 
 
@@ -172,9 +172,7 @@ ul, ol {
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
     height: 40px;
     width: 100%;
-    border: none;
-	  background: #F4F4F4;
-    border-bottom: 2px solid #EEE;
+	background: #F4F4F4;
     color: #354052;
     padding: 0px 10px;
     opacity: 0.5;
@@ -309,11 +307,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         padding: 15px 0px;
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
-        color: 4f4f4f;
+        color: #4f4f4f;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: black;
+        color: #4f4f4f;
     }
     .main-nav>li>a:after {
         content: "";
@@ -408,8 +406,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: fixed;
         right: 0;
         height: calc(100vh - 80px);
-        -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
-        box-shadow: 0px 80px 0px 0px #1C1D21;
+        -webkit-box-shadow: 0px 80px 0px 0px #afafaf;
+        box-shadow: 0px 80px 0px 0px #afafaf;
         max-width: 250px;
         width: 0%;
         -webkit-transform: translateX(100%);
@@ -417,7 +415,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transform: translateX(100%);
         margin: 0;
         overflow-y: auto;
-        background: #1C1D21;
+        background: #afafaf;
         -webkit-transition: 0.2s all;
         transition: 0.2s all;
     }
@@ -432,7 +430,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav li a {
         display: block;
-        color: #FFF;
+        color: #4f4f4f;
         -webkit-transition: 0.2s all;
         transition: 0.2s all;
     }
@@ -441,7 +439,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav li a:hover, .main-nav li a:focus {
         background-color: #c7e07b;
-        color: #FFF;
+        color: black;
         opacity: 1;
     }
     .has-dropdown>a:after {
@@ -617,7 +615,7 @@ header {
 
 /*.about:after {
     content: "";
-    background-color: #1C1D21;
+    background-color: #afafaf;
     position: absolute;
     left: 0;
     top: 0;
@@ -662,7 +660,7 @@ header {
 }
 
 .work .overlay {
-    background: #1C1D21;
+    background: #afafaf;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -826,120 +824,6 @@ header {
     margin-right: 5px;
 }
 
-/*------------------------------------*\
-	Numbers
-\*------------------------------------*/
-
-.number {
-    text-align: center;
-    margin: 15px 0px;
-}
-
-.number i {
-    color: #c7e07b;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.number h3 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-
-/*------------------------------------*\
-	Pricing
-\*------------------------------------*/
-
-.pricing {
-    position: relative;
-    text-align: center;
-    border: 1px solid #EEE;
-    background-color: #FFF;
-    z-index: 11;
-    margin: 15px 0px;
-}
-
-.pricing::after {
-    content: "";
-    background-color: #1C1D21;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 0%;
-    z-index: -1;
-    -webkit-transition: 0.2s height;
-    transition: 0.2s height;
-}
-
-.pricing:hover:after {
-    height: 100%;
-}
-
-.pricing .price-head {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.pricing .price-title {
-    display: block;
-    padding: 40px 0px 20px;
-    text-transform: uppercase;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.pricing:hover .price-title {
-    color: #c7e07b;
-}
-
-.pricing .price {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    line-height: 140px;
-    text-align: center;
-    margin: auto;
-    border-radius: 50%;
-    border: 2px solid #c7e07b;
-}
-
-.pricing .price h3 {
-  font-size: 42px;
-  margin: 0px;
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  top: 50%;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.pricing:hover .price h3 {
-    color: #fff;
-}
-
-.pricing .duration {
-    display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #10161A;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.pricing:hover .duration {
-    color: #fff;
-}
-
-.pricing .price-btn {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
 
 
 /*------------------------------------*\
